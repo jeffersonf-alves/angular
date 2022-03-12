@@ -7,6 +7,7 @@ import { Component, OnChanges, OnInit, SimpleChanges, Input } from '@angular/cor
 })
 export class TitleComponent implements OnInit, OnChanges {
 
+  nome: string = ""
   Interpolation = ""
   public imgSrc: string = "https://www.viajali.com.br/wp-content/uploads/2020/02/praias-mais-bonitas-do-brasil-2.jpg"
   public titleImg: string = "Uma praia"
