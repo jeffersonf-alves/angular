@@ -5,7 +5,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `<router-outlet></router-outlet>
-          <app-title title="jefferson"></app-title>`,
+          <app-title title="jefferson"></app-title>
+          <app-new-component></app-new-component>`,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
